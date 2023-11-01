@@ -38,39 +38,49 @@ void cetakKeterangan(int pilPemain1, int pilPemain2, int pilKomputer){
     }
 }
 void vsKomputer(){
-    int pilPemain1;
-    int pilKomputer = rand()%3 +1;
-    cout << "Mode Pemain VS Komputer" << endl;
-    cout << "Masukkan nama pemain: ";
-    cin >> p1;
+        cout << "Masukkan nama pemain: ";
+        cin >> p1;
+    do {
+        int pilPemain1;
+        int pilKomputer = rand()%3 +1;
+        cout << "Mode Pemain VS Komputer" << endl;
 
-    cout << "(1) Gunting\n(2) Kertas\n(3) Batu" << endl;
-    cout << "Masukkan pilihan (1/2/3): ";
-    cin >> pilPemain1;
+        cout << "(1) Gunting\n(2) Kertas\n(3) Batu" << endl;
+        cout << "Masukkan pilihan (1/2/3): ";
+        cin >> pilPemain1;
 
-    cetakKeterangan(pilPemain1, 0, pilKomputer);
+        cetakKeterangan(pilPemain1, 0, pilKomputer);
 
-    cout << "Pilihan Pemain: (" << pilPemain1 << ") " << ketP1 << endl;
-    cout << "Pilihan Komputer: (" << pilKomputer << ") " << ketK << endl;
+        cout << "Pilihan Pemain: (" << pilPemain1 << ") " << ketP1 << endl;
+        cout << "Pilihan Komputer: (" << pilKomputer << ") " << ketK << endl;
 
-    if(pilPemain1==pilKomputer){
-        cout << "Hasil Seri" << endl;
-    }
-    else if(pilPemain1==1 && pilKomputer==2 ||
-            pilPemain1==2 && pilKomputer==3 ||
-            pilPemain1==3 && pilKomputer==1 ){
-                cout << "Anda Menang!" << endl;
-                skorP1++;
-    }
+        if(pilPemain1==pilKomputer){
+            cout << "Hasil Seri" << endl;
+        }
+        else if(pilPemain1==1 && pilKomputer==2 ||
+                pilPemain1==2 && pilKomputer==3 ||
+                pilPemain1==3 && pilKomputer==1 ){
+                    cout << "Anda Menang!" << endl;
+                    skorP1++;
+        }
+        else{
+            cout << "Anda Kalah" << endl;
+            skorKomputer++;
+        }
 
-    else{
-        cout << "Anda Kalah" << endl;
-        skorKomputer++;
-    }
+        cout << "Skor Saat Ini: " << endl;
+        cout << "Skor " << p1 << ": " << skorP1 << endl;
+        cout << "Skor Komputer: " << skorKomputer << endl;
 
-    cout << "Skor Saat Ini: " << endl;
-    cout << "Skor " << p1 << ": " << skorP1 << endl;
-    cout << "Skor Komputer: " << skorKomputer << endl;
+        char lanjut;
+        cout << "Apakah Anda ingin melanjutkan permainan? (y/n): ";
+        cin >> lanjut;
+
+        if (lanjut != 'y' && lanjut != 'Y') {
+            break;
+        }
+
+    } while (true);
 }
 
 void vsPemain(){
@@ -116,6 +126,7 @@ void skorSaatIni(){
     cout << "\nSkor Saat Ini:" << endl;
     cout << p1 << " (Pemain 1) : " << skorP1 << endl;
     cout << p2 << " (Pemain 2) : " << skorP2 << endl;
+    cout << "Komputer: " << skorKomputer << endl;
 }
 
 void resetSkor(){
