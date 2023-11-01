@@ -1,20 +1,57 @@
 #include <iostream>
 #include <cstdlib>
+
 using namespace std;
 
-int skorP1 = 0, skorP2, skorKomputer = 0;
-string p1, p2;
+int skorP1 = 0, skorP2 = 0, skorKomputer = 0;
+string p1, p2, ketP1, ketP2, ketK;
 
+void cetakKeterangan(int pilPemain1, int pilPemain2, int pilKomputer){
+    if(pilPemain1==1){
+        ketP1 = "Gunting";
+    }
+    else if(pilPemain1==2){
+        ketP1 = "Kertas";
+    }
+    else if(pilPemain1==3){
+        ketP1 = "Batu";
+    }
+
+    if(pilPemain2==1){
+        ketP2 = "Gunting";
+    }
+    else if(pilPemain2==2){
+        ketP2 = "Kertas";
+    }
+    else if(pilPemain2==3){
+        ketP2 = "Batu";
+    }
+
+    if(pilKomputer==1){
+        ketK = "Gunting";
+    }
+    else if(pilKomputer==2){
+        ketK = "Kertas";
+    }
+    else if(pilKomputer==3){
+        ketK = "Batu";
+    }
+}
 void vsKomputer(){
     int pilPemain1;
     int pilKomputer = rand()%3 +1;
     cout << "Mode Pemain VS Komputer" << endl;
+    cout << "Masukkan nama pemain: ";
+    cin >> p1;
+
     cout << "(1) Gunting\n(2) Kertas\n(3) Batu" << endl;
     cout << "Masukkan pilihan (1/2/3): ";
     cin >> pilPemain1;
-    
-    cout << "Pilihan Pemain: " << pilPemain1 << endl;
-    cout << "Pilihan Komputer: " << pilKomputer << endl;
+
+    cetakKeterangan(pilPemain1, 0, pilKomputer);
+
+    cout << "Pilihan Pemain: (" << pilPemain1 << ") " << ketP1 << endl;
+    cout << "Pilihan Komputer: (" << pilKomputer << ") " << ketK << endl;
 
     if(pilPemain1==pilKomputer){
         cout << "Hasil Seri" << endl;
@@ -32,7 +69,7 @@ void vsKomputer(){
     }
 
     cout << "Skor Saat Ini: " << endl;
-    cout << "Skor Pemain: " << skorP1 << endl;
+    cout << "Skor " << p1 << ": " << skorP1 << endl;
     cout << "Skor Komputer: " << skorKomputer << endl;
 }
 
@@ -51,8 +88,10 @@ void vsPemain(){
     cout << p2 << ", Masukkan pilihan (1/2/3): ";
     cin >> pilPemain2;
 
-    cout << "Pilihan " << p1 << ": " << pilPemain1 << endl;
-    cout << "Pilihan " << p2 << ": " << pilPemain2 << endl;
+    cetakKeterangan(pilPemain1, pilPemain2, 0);
+
+    cout << "Pilihan " << p1 << ": (" << pilPemain1 << ") " << ketP1 << endl;
+    cout << "Pilihan " << p2 << ": (" << pilPemain2 << ") " << ketP2 << endl;
 
     if(pilPemain1==pilPemain2){
         cout << "Hasil Seri" << endl;
