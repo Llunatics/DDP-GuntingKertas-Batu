@@ -74,11 +74,15 @@ void vsPemain(){
 }
 
 void skorSaatIni(){
-  
+    cout << "\nSkor Saat Ini:" << endl;
+    cout << p1 << " (Pemain 1) : " << skorP1 << endl;
+    cout << p2 << " (Pemain 2) : " << skorP2 << endl;
 }
 
 void resetSkor(){
- 
+    skorP1 = 0;
+    skorP2 = 0;
+    skorKomputer = 0;
 }
 
 int main(){
