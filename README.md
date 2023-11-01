@@ -16,10 +16,6 @@ Daftar Mode Permainan:
 * Pemain 1 VS Pemain 2
 * Kembali ke Menu Utama
 
-# Game Gunting Kertas Batu
-
-Program ini adalah sebuah permainan sederhana di mana pemain dapat bermain melawan komputer atau antar dua pemain. Setiap pemain memilih antara Gunting, Kertas, atau Batu, dan hasilnya akan ditentukan berdasarkan aturan permainan.
-
 ## Algoritma Deskriptif
 
 1. Inisialisasi variabel skorP1, skorP2, dan skorKomputer menjadi 0.
