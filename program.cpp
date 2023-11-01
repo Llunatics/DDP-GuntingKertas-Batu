@@ -2,7 +2,8 @@
 #include <cstdlib>
 using namespace std;
 
-int skorP1 = 0, skorKomputer = 0;
+int skorP1 = 0, skorP2, skorKomputer = 0;
+string p1, p2;
 
 void vsKomputer(){
     int pilPemain1;
@@ -36,7 +37,40 @@ void vsKomputer(){
 }
 
 void vsPemain(){
-   
+    int pilPemain1, pilPemain2;
+    cout << "Mode Pemain 1 Vs Pemain 2" << endl;
+    cout << "Masukkan nama pemain 1: ";
+    cin >> p1;
+    cout << "Masukkan nama pemain 2: ";
+    cin >> p2;
+
+    cout << "(1) Gunting\n(2) Kertas\n(3) Batu" << endl;
+    cout << p1 << ", Masukkan pilihan (1/2/3): ";
+    cin >> pilPemain1;
+
+    cout << p2 << ", Masukkan pilihan (1/2/3): ";
+    cin >> pilPemain2;
+
+    cout << "Pilihan " << p1 << ": " << pilPemain1 << endl;
+    cout << "Pilihan " << p2 << ": " << pilPemain2 << endl;
+
+    if(pilPemain1==pilPemain2){
+        cout << "Hasil Seri" << endl;
+    }
+    else if(pilPemain1==1 && pilPemain2==2 ||
+            pilPemain1==2 && pilPemain2==3 ||
+            pilPemain1==3 && pilPemain2==1 ){
+                cout << p1 << " Menang!" << endl;
+                skorP1++;
+    }
+    else{
+        cout << p2 << " Menang!" << endl;
+        skorP2++;
+    }
+
+    cout << "Skor Saat Ini: " << endl;
+    cout << "Skor " << p1 << ": " << skorP1 << endl;
+    cout << "Skor " << p2 << ": " << skorP2 << endl;
 }
 
 void skorSaatIni(){
