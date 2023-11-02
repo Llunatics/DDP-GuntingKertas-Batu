@@ -1,0 +1,12 @@
+Pada tahun 1967, seorang ilmuwan komputer dari Universitas Cambridge bernama Martin Richards mengembangkan bahasa BCPL (Basic Combined Programming Language) yang menjadi awal perkembangan dan terbentuknya bahasa C++. BCPL diciptakan untuk menghapus fitur bahasa lengkap yang membuat kompilasi menjadi sulit pada bahasa CPL (Combined Programming Language) yang diciptakan awal tahun 1960-an. CPL dikembangkan di Laboratorium Matematika di Universitas Cambridge sebagai Bahasa Pemrograman Cambridge.
+
+Dua tahun kemudian tepatnya pada tahun 1969, ilmuwan komputer bernama Kenneth Thompson dan Dennis MacAlister Ritchie membuat Sistem Operasi Unix di Bell Laboratories. Di tahun yang sama Kenneth Thompson juga membuat bahasa B yang merupakan pengembangan dari bahasa BCPL (Basic Combined Programming Language).
+
+Pada tahun 1978 di Bell Laboratories, Brian Wilson Kernighan dan Dennis MacAlister Ritchie melakukan pengembangan terhadap bahasa B. Dalam pengembangan ini menghasilkan bahasa baru yaitu bahasa C yang populer hingga saat ini. Tahun 1989 merupakan tahun penting setelah dikeluarkannya standar bahasa C oleh ANSI (American National Standards Institute) dan kemudian dikenal dengan nama ANSI C.
+
+Awal tahun 1980, Bjarne Stroustrup, seorang ilmuwan komputer yang bekerja di Bell Laboratories, melakukan pengembangan bahasa C. Setelah melakukan pengembangan bahasa C selama 5 tahun, tepatnya pada tahun 1985, tercipta bahasa pemrograman baru yaitu bahasa C++. Bahasa C++ mengalami dua tahap evolusi, bahasa C++ pertama dinamakan cfront yang dirilis oleh Bell Laboratories. Cfront hanya berupa kompiler penerjemah bahasa C++ menjadi bahasa C.
+
+Evolusi kedua, Borland International Inc. mengembangkan kompiler C++ yang langsung menjadikan bahasa C++ menjadi bahasa assembly (mesin). Sejak evolusi kedua, bahasa C++ banyak digunakan oleh programmer profesional hingga saat ini.
+
+source
+Danti Aisa. (2014). Sejarah bahasa C dan C++. Wordpress.com.
