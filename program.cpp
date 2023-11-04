@@ -51,22 +51,30 @@ void vsKomputer(){
 
         cetakKeterangan(pilPemain1, 0, pilKomputer);
 
-        cout << "Pilihan Pemain: (" << pilPemain1 << ") " << ketP1 << endl;
-        cout << "Pilihan Komputer: (" << pilKomputer << ") " << ketK << endl;
+        if(pilPemain1==1 || pilPemain1==2 || pilPemain1==3){
+            cout << "Pilihan Pemain: (" << pilPemain1 << ") " << ketP1 << endl;
+            cout << "Pilihan Komputer: (" << pilKomputer << ") " << ketK << endl;
 
-        if(pilPemain1==pilKomputer){
-            cout << "Hasil Seri" << endl;
+            if(pilPemain1==pilKomputer){
+                cout << "Hasil Seri" << endl;
+            }
+            else if(pilPemain1==1 && pilKomputer==2 ||
+                    pilPemain1==2 && pilKomputer==3 ||
+                    pilPemain1==3 && pilKomputer==1 ){
+                        cout << "Anda Menang!" << endl;
+                        skorP1++;
+            }
+            else{
+                cout << "Anda Kalah" << endl;
+                skorKomputer++;
+            }
+            
+        } else{
+            cout << "Pilihan tidak valid. Ulangi lagi." << endl;
         }
-        else if(pilPemain1==1 && pilKomputer==2 ||
-                pilPemain1==2 && pilKomputer==3 ||
-                pilPemain1==3 && pilKomputer==1 ){
-                    cout << "Anda Menang!" << endl;
-                    skorP1++;
-        }
-        else{
-            cout << "Anda Kalah" << endl;
-            skorKomputer++;
-        }
+        
+
+        
 
         cout << "Skor Saat Ini: " << endl;
         cout << "Skor " << p1 << ": " << skorP1 << endl;
@@ -142,9 +150,17 @@ void skorSaatIni(){
 }
 
 void resetSkor(){
-    skorP1 = 0;
-    skorP2 = 0;
-    skorKomputer = 0;
+    char reset;
+    cout << "Apakah anda yakin ingin mereset skor? (y/n)";
+    cin >> reset;
+    if(reset == 'y'|| reset == 'Y'){
+        skorP1 = 0;
+        skorP2 = 0;
+        skorKomputer = 0;
+        cout << "Skor telah direset." << endl;
+    } else{
+        cout << "Skor batal direset.";
+    }
 }
 
 int main(){
