@@ -68,7 +68,6 @@ void vsKomputer(){
                 cout << "Anda Kalah" << endl;
                 skorKomputer++;
             }
-            
         } else{
             cout << "Pilihan tidak valid. Ulangi lagi." << endl;
         }
@@ -143,10 +142,31 @@ void vsPemain(){
 }
 
 void skorSaatIni(){
-    cout << "\nSkor Saat Ini:" << endl;
-    cout << p1 << " (Pemain 1) : " << skorP1 << endl;
-    cout << p2 << " (Pemain 2) : " << skorP2 << endl;
-    cout << "Komputer: " << skorKomputer << endl;
+    string pemain1 = p1 + " (Pemain 1)";
+    string pemain2 = p2 + " (Pemain 2)";
+    string komputer = "Komputer";
+
+    int skorP1Temp = skorP1;
+    int skorP2Temp = skorP2;
+    int skorKomputerTemp = skorKomputer;
+
+    if (skorP1Temp < skorP2Temp) {
+        swap(skorP1Temp, skorP2Temp);
+        swap(pemain1, pemain2);
+    }
+    if (skorP1Temp < skorKomputerTemp) {
+        swap(skorP1Temp, skorKomputerTemp);
+        swap(pemain1, komputer);
+    }
+    if (skorP2Temp < skorKomputerTemp) {
+        swap(skorP2Temp, skorKomputerTemp);
+        swap(pemain2, komputer);
+    }
+
+    cout << "\nSkor Saat Ini (Diurutkan berdasarkan skor tertinggi):" << endl;
+    cout << "1. " << pemain1 << " : " << skorP1Temp << endl;
+    cout << "2. " << pemain2 << " : " << skorP2Temp << endl;
+    cout << "3. " << komputer << " : " << skorKomputerTemp << endl;
 }
 
 void resetSkor(){
