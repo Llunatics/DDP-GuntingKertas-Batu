@@ -194,9 +194,9 @@ Pseudocode Submodul Reset Skor
 
 
 ## Flowchart
-![Menu Utama](Menu_Utama.png)
-![Menu Permainan](Submodul_Mulai_Permainan.png)
-![VS Komputer](Submodul_VS_Komputer.png)
-![VS Pemain 2](Submodul_VS_Pemain_2.png)
-![Menampilkan Skor](Submodul_Skor.png)
-![Reset Skor](Submodul_Reset_Skor.png)
+![Menu Utama](Flowchart & Pseudocode/Menu_Utama.png)
+![Menu Permainan](Flowchart & Pseudocode/Submodul_Mulai_Permainan.png)
+![VS Komputer](Flowchart & Pseudocode/Submodul_VS_Komputer.png)
+![VS Pemain 2](Flowchart & Pseudocode/Submodul_VS_Pemain_2.png)
+![Menampilkan Skor](Flowchart & Pseudocode/Submodul_Skor.png)
+![Reset Skor](Flowchart & Pseudocode/Submodul_Reset_Skor.png)
