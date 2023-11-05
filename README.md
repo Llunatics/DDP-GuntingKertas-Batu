@@ -191,3 +191,12 @@ Pseudocode Submodul Reset Skor
 5. Else
       Print "Skor Batal Direset"
 6. End Submodul
+
+
+## Flowchart
+![Menu Utama](Menu_Utama.png)
+![Menu Permainan](Submodul_Mulai_Permainan.png)
+![VS Komputer](Submodul_VS_Komputer.png)
+![VS Pemain 2](Submodul_VS_Pemain_2.png)
+![Menampilkan Skor](Submodul_Skor.png)
+![Reset Skor](Submodul_Reset_Skor.png)
