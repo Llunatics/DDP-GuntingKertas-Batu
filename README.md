@@ -194,9 +194,9 @@ Pseudocode Submodul Reset Skor
 
 
 ## Flowchart
-![Menu Utama]([Flowchart & Pseudocode/Menu_Utama.png](https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/501dcae33a1036579617d0493f8daee4d83ed54c/Flowchart%20%26%20Pseudocode/Menu_Utama.png))
-![Menu Permainan]([Flowchart & Pseudocode/Submodul_Mulai_Permainan.png](https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/501dcae33a1036579617d0493f8daee4d83ed54c/Flowchart%20%26%20Pseudocode/Submodul_Mulai_Permainan.png))
-![VS Komputer]([Flowchart & Pseudocode/Submodul_VS_Komputer.png](https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/501dcae33a1036579617d0493f8daee4d83ed54c/Flowchart%20%26%20Pseudocode/Submodul_VS_Komputer.png))
-![VS Pemain 2]([Flowchart & Pseudocode/Submodul_VS_Pemain_2.png](https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/501dcae33a1036579617d0493f8daee4d83ed54c/Flowchart%20%26%20Pseudocode/Submodul_VS_Pemain_2.png)https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/501dcae33a1036579617d0493f8daee4d83ed54c/Flowchart%20%26%20Pseudocode/Submodul_VS_Pemain_2.png)
-![Menampilkan Skor]([Flowchart & Pseudocode/Submodul_Skor.png](https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/501dcae33a1036579617d0493f8daee4d83ed54c/Flowchart%20%26%20Pseudocode/Submodul_Skor.png)https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/501dcae33a1036579617d0493f8daee4d83ed54c/Flowchart%20%26%20Pseudocode/Submodul_Skor.png)
-![Reset Skor]([Flowchart & Pseudocode/Submodul_Reset_Skor.png](https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/501dcae33a1036579617d0493f8daee4d83ed54c/Flowchart%20%26%20Pseudocode/Submodul_Reset_Skor.png)https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/501dcae33a1036579617d0493f8daee4d83ed54c/Flowchart%20%26%20Pseudocode/Submodul_Reset_Skor.png)
+![Menu Utama](https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/501dcae33a1036579617d0493f8daee4d83ed54c/Flowchart%20%26%20Pseudocode/Menu_Utama.png)
+![Menu Permainan](https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/501dcae33a1036579617d0493f8daee4d83ed54c/Flowchart%20%26%20Pseudocode/Submodul_Mulai_Permainan.png)
+![VS Komputer](https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/501dcae33a1036579617d0493f8daee4d83ed54c/Flowchart%20%26%20Pseudocode/Submodul_VS_Komputer.png)
+![VS Pemain 2](https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/501dcae33a1036579617d0493f8daee4d83ed54c/Flowchart%20%26%20Pseudocode/Submodul_VS_Pemain_2.png)
+![Menampilkan Skor](https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/501dcae33a1036579617d0493f8daee4d83ed54c/Flowchart%20%26%20Pseudocode/Submodul_Skor.png)
+![Reset Skor](https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/501dcae33a1036579617d0493f8daee4d83ed54c/Flowchart%20%26%20Pseudocode/Submodul_Reset_Skor.png)
