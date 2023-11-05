@@ -213,9 +213,11 @@ Pseudocode Submodul Reset Skor
 
 
 ## Flowchart
-![Menu Utama](https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/501dcae33a1036579617d0493f8daee4d83ed54c/Flowchart%20%26%20Pseudocode/Menu_Utama.png)
-![Menu Permainan](https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/501dcae33a1036579617d0493f8daee4d83ed54c/Flowchart%20%26%20Pseudocode/Submodul_Mulai_Permainan.png)
-![VS Komputer](https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/501dcae33a1036579617d0493f8daee4d83ed54c/Flowchart%20%26%20Pseudocode/Submodul_VS_Komputer.png)
-![VS Pemain 2](https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/501dcae33a1036579617d0493f8daee4d83ed54c/Flowchart%20%26%20Pseudocode/Submodul_VS_Pemain_2.png)
-![Menampilkan Skor](https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/501dcae33a1036579617d0493f8daee4d83ed54c/Flowchart%20%26%20Pseudocode/Submodul_Skor.png)
-![Reset Skor](https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/501dcae33a1036579617d0493f8daee4d83ed54c/Flowchart%20%26%20Pseudocode/Submodul_Reset_Skor.png)
+<div style="display: flex; flex-wrap: wrap;">
+  <img src="https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/501dcae33a1036579617d0493f8daee4d83ed54c/Flowchart%20%26%20Pseudocode/Menu_Utama.png" width="80">
+  <img src="https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/501dcae33a1036579617d0493f8daee4d83ed54c/Flowchart%20%26%20Pseudocode/Submodul_Mulai_Permainan.png" width="80">
+  <img src="https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/501dcae33a1036579617d0493f8daee4d83ed54c/Flowchart%20%26%20Pseudocode/Submodul_VS_Komputer.png" width="80">
+  <img src="https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/501dcae33a1036579617d0493f8daee4d83ed54c/Flowchart%20%26%20Pseudocode/Submodul_VS_Pemain_2.png" width="80">
+  <img src="https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/501dcae33a1036579617d0493f8daee4d83ed54c/Flowchart%20%26%20Pseudocode/Submodul_Skor.png" width="80">
+  <img src="https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/501dcae33a1036579617d0493f8daee4d83ed54c/Flowchart%20%26%20Pseudocode/Submodul_Reset_Skor.png" width="80">
+</div>
