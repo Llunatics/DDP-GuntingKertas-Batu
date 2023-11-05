@@ -18,19 +18,20 @@ Daftar Mode Permainan:
 
 ## Konsep Interface
 
-<img src="https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/d7bab64a5ae48202d078777a4d7671dd8ca23d54/Design%20Concept/1.%20Splash%20Revisi.png" width="200">
-<img src="https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/d7bab64a5ae48202d078777a4d7671dd8ca23d54/Design%20Concept/2.%20Welcome%20Revisi.png" width="200">
-<img src="https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/d7bab64a5ae48202d078777a4d7671dd8ca23d54/Design%20Concept/3.%20Menu%20Utama%202%20Revisi.png" width="200">
-<img src="https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/d7bab64a5ae48202d078777a4d7671dd8ca23d54/Design%20Concept/4.%20Mode%20Permainan%201%20Revisi.png" width="200">
-<img src="https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/d7bab64a5ae48202d078777a4d7671dd8ca23d54/Design%20Concept/5.%20Nama%201%20Player%20Revisi.png" width="200">
-<img src="https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/d7bab64a5ae48202d078777a4d7671dd8ca23d54/Design%20Concept/6.%20Mode%20Permainan%202%20Revisi.png" width="200">
-<img src="https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/d7bab64a5ae48202d078777a4d7671dd8ca23d54/Design%20Concept/7.%20Nama%202%20Player%20Revisi.png" width="200">
-<img src="https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/d7bab64a5ae48202d078777a4d7671dd8ca23d54/Design%20Concept/8.%20Permainan%20VS%20Komp%20Revisi.png" width="200">
-<img src="https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/d7bab64a5ae48202d078777a4d7671dd8ca23d54/Design%20Concept/9.%20VS%20Komp%20Menang%20Revisi.png" width="200">
-<img src="https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/d7bab64a5ae48202d078777a4d7671dd8ca23d54/Design%20Concept/10.%20Permainan%20VS%20Pemain%202%20Revisi.png" width="200">
-<img src="https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/d7bab64a5ae48202d078777a4d7671dd8ca23d54/Design%20Concept/11.%20VS%20Komp%20Hasil%20Revisi.png" width="200">
-<img src="https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/d7bab64a5ae48202d078777a4d7671dd8ca23d54/Design%20Concept/12.%20Skor%20Revisi.png" width="200">
-<img src="https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/d7bab64a5ae48202d078777a4d7671dd8ca23d54/Design%20Concept/13.%20Reset%20Revisi.png" width="200">
+<img src="https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/d7bab64a5ae48202d078777a4d7671dd8ca23d54/Design%20Concept/1.%20Splash%20Revisi.png" width="50">
+<img src="https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/d7bab64a5ae48202d078777a4d7671dd8ca23d54/Design%20Concept/2.%20Welcome%20Revisi.png" width="50">
+<img src="https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/d7bab64a5ae48202d078777a4d7671dd8ca23d54/Design%20Concept/3.%20Menu%20Utama%202%20Revisi.png" width="50">
+<img src="https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/d7bab64a5ae48202d078777a4d7671dd8ca23d54/Design%20Concept/4.%20Mode%20Permainan%201%20Revisi.png" width="50">
+<img src="https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/d7bab64a5ae48202d078777a4d7671dd8ca23d54/Design%20Concept/5.%20Nama%201%20Player%20Revisi.png" width="50">
+<img src="https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/d7bab64a5ae48202d078777a4d7671dd8ca23d54/Design%20Concept/6.%20Mode%20Permainan%202%20Revisi.png" width="50">
+<img src="https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/d7bab64a5ae48202d078777a4d7671dd8ca23d54/Design%20Concept/7.%20Nama%202%20Player%20Revisi.png" width="50">
+<img src="https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/d7bab64a5ae48202d078777a4d7671dd8ca23d54/Design%20Concept/8.%20Permainan%20VS%20Komp%20Revisi.png" width="50">
+<img src="https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/d7bab64a5ae48202d078777a4d7671dd8ca23d54/Design%20Concept/9.%20VS%20Komp%20Menang%20Revisi.png" width="50">
+<img src="https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/d7bab64a5ae48202d078777a4d7671dd8ca23d54/Design%20Concept/10.%20Permainan%20VS%20Pemain%202%20Revisi.png" width="50">
+<img src="https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/d7bab64a5ae48202d078777a4d7671dd8ca23d54/Design%20Concept/11.%20VS%20Komp%20Hasil%20Revisi.png" width="50">
+<img src="https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/d7bab64a5ae48202d078777a4d7671dd8ca23d54/Design%20Concept/12.%20Skor%20Revisi.png" width="50">
+<img src="https://github.com/Llunatics/DDP-GuntingKertas-Batu/blob/d7bab64a5ae48202d078777a4d7671dd8ca23d54/Design%20Concept/13.%20Reset%20Revisi.png" width="50">
+
 
 
 ## Konsep Interface
